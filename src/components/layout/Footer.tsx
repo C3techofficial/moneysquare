@@ -12,11 +12,12 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <span className="footer-label">Explore</span>
-          <a href="#platforms">Trading platforms</a>
-          <a href="#loans">Investment-backed loans</a>
-          <a href="#exchange">Exchange services</a>
-        </div>
+  <span className="footer-label">Explore</span>
+  <a href="/#platforms">Trading platforms</a>
+  <a href="/investment">Investment</a>
+  <a href="/loan">Loan</a>
+  <a href="/#exchange">Exchange services</a>
+</div>
         <div>
           <span className="footer-label">Company</span>
           <a href="#about">How it works</a>

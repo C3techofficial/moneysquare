@@ -11,6 +11,8 @@ import {
   ShieldCheck,
   Sparkles,
   TrendingUp,
+  ArrowLeftRight,
+  HandCoins,
 } from "lucide-react";
 import type { ProcessStep, Service } from "@/types";
 
@@ -110,6 +112,24 @@ export const tradingServices: Service[] = [
     href: "#service-bonds",
     category: "12",
   },
+  
+  {
+    title: "Exchange Services",
+    description:
+      "Explore currency exchange solutions and understand foreign exchange services.",
+    icon: ArrowLeftRight,
+    href: "#exchange",
+    category: "13",
+  },
+  {
+  title: "Loan",
+  description:
+    "Explore flexible borrowing options against eligible financial assets, subject to lender approval.",
+  icon: HandCoins,
+  href: "#loans",
+  category: "14",
+},
+
 ];
 
 export const processSteps: ProcessStep[] = [

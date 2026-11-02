@@ -15,7 +15,7 @@ export function TradingPlatforms() {
             text="Understand the markets, products, and platforms that can help you explore different financial opportunities."
           />
           <span className="section-index">
-            01 <i /> 12
+            01 <i /> 14
           </span>
         </div>
         <div className="services-grid">
