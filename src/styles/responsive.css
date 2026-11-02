@@ -1,0 +1,213 @@
+@media (max-width: 950px) {
+  .desktop-nav nav {
+    gap: 14px;
+  }
+  .desktop-nav nav > a {
+    font-size: 9px;
+  }
+  .hero-grid {
+    gap: 35px;
+  }
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .loan-grid {
+    gap: 45px;
+  }
+  .footer-top {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: min(100% - 36px, 560px);
+  }
+  .site-header {
+    height: 68px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .mobile-nav nav {
+    position: absolute;
+    top: 68px;
+    left: 18px;
+    right: 18px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 17px;
+    background: rgba(16, 16, 15, 0.98);
+    border: 1px solid var(--line);
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.4);
+  }
+  .mobile-nav nav.open {
+    display: flex;
+  }
+  .mobile-nav nav > a {
+    padding: 10px;
+    font-size: 10px;
+    color: #b8b5ac;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+  }
+  .mobile-nav nav .button {
+    margin: 7px 0 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 125px 0 75px;
+    min-height: 0;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .hero-copy {
+    padding-top: 0;
+  }
+  .hero-copy > p {
+    font-size: 13px;
+  }
+  .dashboard-wrap {
+    max-width: 520px;
+    margin: auto;
+    width: 100%;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  .section {
+    padding: 85px 0;
+  }
+  .section-topline {
+    align-items: start;
+    gap: 15px;
+  }
+  .section-index {
+    display: none;
+  }
+  .section-heading h2,
+  .loan-copy h2,
+  .contact-grid h2 {
+    font-size: 38px;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .process-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+  .process-step {
+    padding: 0 0 0 20px;
+    min-height: 150px;
+  }
+  .process-step:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .step-top i {
+    display: none;
+  }
+  .loan-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .exchange-grid {
+    grid-template-columns: 1fr;
+    margin-top: 35px;
+  }
+  .contact-meta {
+    gap: 22px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+  }
+  .footer-brand {
+    grid-column: span 2;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 9px;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .hero-actions .button {
+    width: 100%;
+  }
+  .dashboard {
+    padding: 22px 18px;
+  }
+  .portfolio-value {
+    font-size: 25px;
+  }
+  .dashboard-grid {
+    gap: 8px;
+  }
+  .dashboard-grid strong {
+    font-size: 11px;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    min-height: 185px;
+  }
+  .section-heading h2,
+  .loan-copy h2,
+  .contact-grid h2 {
+    font-size: 33px;
+  }
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+  .process-step,
+  .process-step:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 24px;
+  }
+  .process-step:last-child {
+    border: 0;
+  }
+  .calc-fields {
+    grid-template-columns: 1fr;
+  }
+  .calc-results strong {
+    font-size: 14px;
+  }
+  .calculator-card {
+    padding: 22px 18px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+  .footer-brand {
+    grid-column: auto;
+  }
+  .footer-bottom {
+    font-size: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

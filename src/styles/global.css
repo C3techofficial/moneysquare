@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --black: #080808;
+  --surface: #10100f;
+  --card: #151513;
+  --card2: #1b1a17;
+  --gold: #d8ae55;
+  --gold-light: #f5d98a;
+  --gold-dark: #9e772f;
+  --silver: #c7cbd1;
+  --text: #f6f3eb;
+  --muted: #a09d94;
+  --line: rgba(216, 174, 85, 0.2);
+  --white-line: rgba(255, 255, 255, 0.1);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--text);
+  font-family: "Manrope", sans-serif;
+  line-height: 1.55;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input,
+textarea {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: min(1160px, calc(100% - 48px));
+  margin: auto;
+}
+.app-shell {
+  overflow: hidden;
+  background: var(--black);
+}
+/* ===== Light theme (dark is default) ===== */
+html[data-theme="light"] {
+  --black: #faf7f0;
+  --surface: #f2eee3;
+  --card: #ffffff;
+  --card2: #f6f2e8;
+  --gold: #b8892b;
+  --gold-light: #8a6410;
+  --gold-dark: #6f5220;
+  --silver: #5c6068;
+  --text: #17140d;
+  --muted: #5c564a;
+  --line: rgba(158, 119, 47, 0.35);
+  --white-line: rgba(0, 0, 0, 0.1);
+  color-scheme: light;
+}
+
+body {
+  transition: background 0.3s, color 0.3s;
+}
