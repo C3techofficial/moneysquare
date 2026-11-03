@@ -26,9 +26,7 @@ export function ExchangeSection() {
                 </div>
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
-                <span className="learn">
-                  Read more <ArrowUpRight size={14} />
-                </span>
+                
               </a>
             );
           })}
